@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type=submit]:hover{
+    background-color: pink;
+}
+input[type=reset]:hover{
+    background-color: pink;
+}
+label {display: block;}
+input[type=submit]{
+    width: 50%;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset]{
+     width: 50%;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+h1{
+    text-shadow: 2px 2px;
+}
+    </style>
+</head>
+<body><h1>Job Application Form.</h1>
+   <fieldset> <form>
+        
+       
+        
+        <label for="fname">Full Name :</label>
+        <input type="text"><br><br>
+        <label for="email">Email :</label>
+        <input type="email"><br><br>
+        <label for="phone">Phone Mumber :</label>
+        <input type="number"><br><br>
+        <label for="dob">Date Of Birth :</label>
+        <input type="date"><br><br>
+        <p>Gender :</p>
+<input type="radio" id="male" name="gender" value="gender">
+<label for="male">male</label>
+  <input type="radio" id="female" name="gender" value="gender">
+<label for="female">female</label> <br><br>
+        <label for="address">Address</label>
+        <textarea name="message" rows="3" cols="29"></textarea><br><br>
+<label for="qualification">Highest Qualification :</label>
+<input type="text"><br><br>
+<label for="Years of Experience">Years of Experience :</label>
+<input type="number"><br><br>
+<label for="Expected Salary">Expected Salary :</label>
+<input type="number"><br><br>
+<label for="Resume Upload">Resume Upload:</label>
+<input type="file"><br><br>
+<label for="Portfolio URL">Portfolio URL:</label>
+<input type="text"><br><br>
+<p>Skills :</p>
+<label for=" Project Management"> Project Management</label>
+<input type="checkbox"><br>
+
+<label for="  Data Analysis">  Data Analysis</label>
+<input type="checkbox">
+<br>
+<label for=" Graphic Design"> Graphic Design</label>
+<input type="checkbox">
+<br>
+<label for=" Content Writing"> Content Writing</label>
+<input type="checkbox">
+<br>
+<label for=" Web Development (Frontend/Backend)">Web Development (Frontend/Backend) :</label>
+<input type="checkbox">
+
+<br><br>
+<label for="Preferred Department">Preferred Department :</label>
+<select>
+    <option>Engineering / Tech</option>
+    <option>Marketing</option>
+    <option>Human Resources</option>
+    <option>Sales / Business Development</option>
+    <option>Finance</option>
+</select><br><br>
+<label for="Available Joining Date:">Available Joining Date :</label>
+<input type="date">  </form>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset"></fieldset>
+</body>
+</html>
