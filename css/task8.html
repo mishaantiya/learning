@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+</head>
+<style>
+    .container1{
+        display: flex;
+        background-color: aquamarine;
+        
+    }
+     .container1 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+     .container2{
+        display: flex;
+        background-color: aquamarine;
+        flex-direction: column;
+    }
+     .container2 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+     .container8{
+        display: flex;
+        background-color: aquamarine;
+        flex-wrap:  wrap-reverse;
+    }
+     .container8 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+    .container3{
+        display: flex;
+        background-color: aquamarine;
+        justify-content: space-between;
+    }
+     .container3 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+
+    .container4{
+        display: flex;
+        background-color: aquamarine;
+       align-items: stretch;
+    }
+     .container4 div{
+        background-color: azure;
+       height: 300px;
+       padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+     .container5{
+        display: flex;
+        background-color: aquamarine;
+        
+    }
+     .container5 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+     .container6{
+        display: flex;
+        background-color: aquamarine;
+        
+    }
+     .container6 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+     .container7{
+        display: flex;
+        background-color: aquamarine;
+        
+    }
+     .container7 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+</style>
+<body>
+    <h1>
+        FlexBox
+    </h1>
+    <div class="container1">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div><br><br>
+
+    <div class="container2">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div><br><br>
+
+    <div class="container3">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div><br><br>
+
+    <div class="container4">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div><br><br>
+
+    <div class="container5">
+        <div style="order: 3;">Item 1</div>
+        <div style="order: 1;">Item 2</div>
+        <div style="order: 2;">Item 3</div>
+    </div><br><br>
+
+    <div class="container6">
+        <div style="flex-grow: 1;">Item 1</div>
+        <div style="flex-grow: 5;">Item 2</div>
+        <div style="flex-grow: 6;">Item 3</div>
+    </div>
+<br><br>
+    <div class="container7">
+        <div style="flex-shrink: 10;">Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div><br><br>
+
+    <div class="container8">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div><div>Item 4</div>
+        <div>Item 5</div>
+
+        <div>Item 6</div>
+<div>Item 7</div>
+        <div>Item 8</div>
+        <div>Item 9</div>
+    </div>
+</body>
+</html>
