@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+</head>
+<style>
+    .container1{
+        display: grid;
+        background-color: aquamarine;
+        gap:1px;
+        grid-template-columns: auto auto auto;
+        
+    }
+     .container1 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+    .container2{
+        display: grid;
+        background-color: aquamarine;
+        gap:1px;
+        grid-template-columns: 100px 300px;
+       
+    }
+     .container2 div{
+        background-color: azure;
+        padding: 25px;
+        margin: 20px;
+        font-size: large;
+    }
+
+    .container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 5px;
+  gap: 5px;
+}
+
+.container3 div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+   .container4 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: dodgerblue;
+  padding: 5px;
+  gap: 5px;
+}
+
+.container4 div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+    .item1{
+        justify-self: right;
+    }
+    .teml2{
+        justify-self: center;
+    }
+    .i1{
+        align-self: start;
+    }
+    .i2{align-self: center;}
+</style>
+<body>
+    <h1>
+        Grid Layout
+    </h1>
+    <div class="container1">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div><br><br>
+
+    <div class="container2">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+    </div><br><br>
+
+    <div class="container3">
+        <div class="item1">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="1tem3">Item 3</div>
+    </div><br><br>
+
+    <div class="container4">
+        <div class="i1">Item 1</div>
+        <div class="i2">Item 2</div>
+        <div class="i3">Item 3</div>
+    </div><br><br>
+
+    
+
+    
+</body>
+</html>
